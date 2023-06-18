@@ -446,6 +446,52 @@ vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib/hw/gatekeeper.msm8998.so
 vendor/lib64/hw/gatekeeper.msm8998.so
 
+# Graphics - from marlin - QP1A.190711.020
+vendor/lib64/egl/eglSubDriverAndroid.so|799bb218667628e81792580932775ccc96bcd2ae
+vendor/lib64/egl/libEGL_adreno.so|748bcfb9a7e0c9912bc5cb0404a9a6dbc11cb691
+vendor/lib64/egl/libGLESv1_CM_adreno.so|4b2663345f9247b18fcaed08e8763865bfd38fd4
+vendor/lib64/egl/libGLESv2_adreno.so|17baefd62ff60adf5300c2a9ae6faeae6ad0e39c
+vendor/lib64/egl/libq3dtools_adreno.so|6865ecc6e328a163b255da481c4e635e20372f21
+vendor/lib64/egl/libq3dtools_esx.so|a09436e051d3dcc2f135e093943781ded9e8dfd3
+vendor/lib64/libadreno_utils.so|f89e9c3d10c3b98def4d69390a4e530c4e89ba6a
+vendor/lib64/libbccQTI.so|5d4f9cfef1dda68fb11270909cdf58233fbc4118
+vendor/lib64/libC2D2.so|8de0bfc5b0222dba843c5c4f3a50f3924a1f6133
+vendor/lib64/libc2d30_bltlib.so|4dc927888e7e7501014bfc9dd237df5078175592
+vendor/lib64/libCB.so|f56abfb72abda7d2a7466af69e0404a1fb7d430b
+vendor/lib64/libgsl.so|0c61a8dda8a6914d835814fef55537e634802503
+vendor/lib64/libllvm-glnext.so|7d3f210009411244f574ee2c25829b09ce9f7f7a
+vendor/lib64/libllvm-qcom.so|2b721b052a76416e0f21aa0f5860284e69a2ee38
+vendor/lib64/librs_adreno_sha1.so|56d84505d0fe1efb19a56643a29cba01e4285c49
+vendor/lib64/librs_adreno.so|3690c9e989c8bd25e45bf8563c3b82cd7ba6764e
+vendor/lib64/libRSDriver_adreno.so|679ee615cae11deee11e088283dc67b60b01d6f6
+vendor/lib/egl/eglSubDriverAndroid.so|5e4c3dbd70b34c8dedcfb37a9b960909dd031d43
+vendor/lib/egl/libEGL_adreno.so|632aa54a8b52fc82b6c87fc26c2beef1384af2e1
+vendor/lib/egl/libGLESv1_CM_adreno.so|0f04e7ef152cfa634c9e8b20d2b4dec6d4ad58e4
+vendor/lib/egl/libGLESv2_adreno.so|fe291b3fe26531a4a44e31735d354707fd0fc04d
+vendor/lib/egl/libq3dtools_adreno.so|a03418749a9fefac39bda84d76f5c143251dad1d
+vendor/lib/egl/libq3dtools_esx.so|98f9765ce55e24d354417f87a8a2fe00427bd046
+vendor/lib/libadreno_utils.so|107b47df25bc86d0632545535a2c1b1c14f8e0b5
+vendor/lib/libbccQTI.so|72ef4f9ffa0ad917125f4a7660228e3b55eca5c3
+vendor/lib/libC2D2.so|7b71d86b1912f4552f58e40b38af3b81775e4678
+vendor/lib/libc2d30_bltlib.so|de45eee65380f2483e07a76b3f7b40bd73ece31f
+vendor/lib/libCB.so|8a71f086119ec1703b0bc4e4a4a60257a2578312
+vendor/lib/libgsl.so|7717ea5afecd76e462966f567c89e0ed57c7115e
+vendor/lib/libllvm-glnext.so|553498fdacd55c5d374a5017748707bbe2d029ee
+vendor/lib/libllvm-qcom.so|5d2422c355c2df19c4f82885b99b5593907a9419
+vendor/lib/librs_adreno_sha1.so|fe941e6b46482f071b3d0a7ac09960f45e65eb95
+vendor/lib/librs_adreno.so|5eb0756c2f62a63523dc5ff81754101e1809fdec
+vendor/lib/libRSDriver_adreno.so|107490d68709f0461d42c061c5b0e1d6ee21489a
+
+# Graphics (Vulkan) - from marlin - QP1A.190711.020
+vendor/lib/hw/vulkan.msm8998.so|4ec030d5358f50d829cd166c3e75bb202e44b688
+vendor/lib64/hw/vulkan.msm8998.so|3e86ae4ae42956d2659483fb41cbf518389da68c
+
+graphics
+vendor/lib64/egl/libQTapGLES.so
+vendor/lib64/libOpenCL.so
+vendor/lib/egl/libQTapGLES.so
+vendor/lib/libOpenCL.so
+
 # Graphics firmware
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw

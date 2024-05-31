@@ -496,5 +496,5 @@
         <item>com.aurora.device.DeviceSettings.KeyHandler</item>
         <item>com.aurora.device.DeviceSettings.TouchKeyHandler</item>
     </string-array>
-
+    
 </resources>

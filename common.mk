@@ -332,6 +332,22 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/sysconfig/qti_whitelist.xml
+    
+# QC common
+TARGET_BOARD_PLATFORM := msm8998
+
+TARGET_COMMON_QTI_COMPONENTS += \
+    adreno-5xx \
+    charging \
+    gps-legacy \
+    init \
+    keymaster \
+    media-legacy \
+    qseecomd-legacy \
+    seccomp \
+    telephony \
+    wlan-legacy 
+          
 
 # QMI
 PRODUCT_PACKAGES += \

@@ -337,7 +337,6 @@ PRODUCT_COPY_FILES += \
 TARGET_BOARD_PLATFORM := msm8998
 
 TARGET_COMMON_QTI_COMPONENTS += \
-    adreno-5xx \
     charging \
     gps-legacy \
     init \

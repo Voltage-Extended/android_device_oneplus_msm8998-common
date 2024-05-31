@@ -72,6 +72,15 @@
             android:entryValues="@array/alert_slider_action_entry_values"
             android:defaultValue="2" />
     </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="@string/button_dashboard_summary">
+
+        <SwitchPreference
+            android:key="button_swap"
+            android:title="@string/button_swap_title"
+            android:summary="@string/button_swap_summary" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="vibrator"

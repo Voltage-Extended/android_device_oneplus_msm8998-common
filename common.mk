@@ -425,6 +425,12 @@ PRODUCT_PACKAGES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
+    
+# ViPER4Android
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/app/viper/lib/soundfx/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libv4a_re.so \
+    $(LOCAL_PATH)/app/viper/lib64/soundfx/libv4a_re.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libv4a_re.so \
+    $(LOCAL_PATH)/app/viper/etc/audio_effects.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/audio_effects.conf    
 
 # VR
 PRODUCT_PACKAGES += \
